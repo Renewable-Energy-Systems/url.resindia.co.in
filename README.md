@@ -29,6 +29,34 @@ When a user navigates to a URL like `https://https://renewable-energy-systems.gi
 ├── README.md       # This file. <br>
 └── LICENSE         # License file (MIT License in this example). <br>
 
+## Sample JSON Configuration
+
+The urls.json file contains the mappings from URL identifiers to target URLs. Below is an example configuration:
+
+
+```json
+[
+  {
+    "id": "res",
+    "label": "RES Website",
+    "url": "https://resindia.co.in"
+  },
+  {
+    "id": "res-services",
+    "label": "RES Services",
+    "url": "https://resindia.co.in/services"
+  }
+]
+```
+### Explanation:
+
+- **id:**
+   This is the URL identifier that will be extracted from the last segment of the URL. For example, if a user navigates to https://https://https://renewable-energy-systems.github.io/url.resindia.co.in/res, the script extracts "res".
+
+- **label:** A human-readable label for the URL (useful for documentation or administrative purposes).
+
+- **url:** The target URL where the user will be redirected when the identifier matches.
+
 
 ## How It Works
 
