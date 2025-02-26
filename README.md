@@ -21,13 +21,13 @@ When a user navigates to a URL like `https://https://renewable-energy-systems.gi
 
 ## File Structure
 
-.
-├── index.html      # Main HTML file that loads the redirection logic.
-├── 404.html        # Fallback HTML file for GitHub Pages to handle client-side routing.
-├── redirect.js     # JavaScript file that parses the URL, fetches urls.json, and performs redirection.
-├── urls.json       # JSON configuration mapping URL identifiers to target URLs.
-├── README.md       # This file.
-└── LICENSE         # License file (MIT License in this example).
+. <br>
+├── index.html      # Main HTML file that loads the redirection logic. <br>
+├── 404.html        # Fallback HTML file for GitHub Pages to handle client-side routing. <br>
+├── redirect.js     # JavaScript file that parses the URL, fetches urls.json, and performs redirection. <br>
+├── urls.json       # JSON configuration mapping URL identifiers to target URLs. <br>
+├── README.md       # This file. <br>
+└── LICENSE         # License file (MIT License in this example). <br>
 
 
 ## How It Works
