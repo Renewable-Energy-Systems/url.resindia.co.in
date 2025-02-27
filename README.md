@@ -17,7 +17,7 @@ This project provides a lightweight client-side URL redirection mechanism powere
 
 ## Overview
 
-When a user navigates to a URL like `https://https://renewable-energy-systems.github.io/url.resindia.co.in/res`, the JavaScript in this project extracts the last segment of the URL (e.g., `"res"`), looks it up in a JSON file (`urls.json`), and redirects the user to the corresponding target URL defined in that configuration. If no match is found, an error message is displayed.
+When a user navigates to a URL like `https://url.resindia.co.in/res`, the JavaScript in this project extracts the last segment of the URL (e.g., `"res"`), looks it up in a JSON file (`urls.json`), and redirects the user to the corresponding target URL defined in that configuration. If no match is found, an error message is displayed.
 
 ## File Structure
 
@@ -51,7 +51,7 @@ The urls.json file contains the mappings from URL identifiers to target URLs. Be
 ### Explanation:
 
 - **id:**
-   This is the URL identifier that will be extracted from the last segment of the URL. For example, if a user navigates to https://https://https://renewable-energy-systems.github.io/url.resindia.co.in/res, the script extracts "res".
+   This is the URL identifier that will be extracted from the last segment of the URL. For example, if a user navigates to https://url.resindia.co.in/res, the script extracts "res".
 
 - **label:** A human-readable label for the URL (useful for documentation or administrative purposes).
 
@@ -61,7 +61,7 @@ The urls.json file contains the mappings from URL identifiers to target URLs. Be
 ## How It Works
 
 1. **URL Extraction:**  
-   The script in `redirect.js` extracts the last segment from the current URL (for example, `"res"` from `https://https://renewable-energy-systems.github.io/url.resindia.co.in/res`).
+   The script in `redirect.js` extracts the last segment from the current URL (for example, `"res"` from `https://url.resindia.co.in/res`).
 
 2. **Configuration Fetching:**  
    It uses the Fetch API to load `urls.json` and searches for an entry that matches the extracted segment.
